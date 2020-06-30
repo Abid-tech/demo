@@ -1,0 +1,554 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Poppins', sans-serif;*/
+/*clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 30%, 40% 100%, 0 100%, 0% 70%, 0% 30%);*/
+
+/* NAVBAR PART START*/
+.navbar-brand{
+    width: 180px
+}
+.navbar-light .navbar-nav .nav-link {
+	font-family: 'Poppins', sans-serif;
+    color: #444444;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 0;
+    margin-left: 35px
+}
+.nav-btn h6{
+    font-family: 'Montserrat', sans-serif;
+    background: #0d72b9;
+    color: #ffffff;
+    border: 2px solid #0d72b9;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 5px;
+    border-radius: 28px;
+    font-weight: 700;
+    transition: all linear .3s;
+}
+.nav-btn h6:hover{
+    background: transparent;
+    color: #0d72b9
+}
+.bg{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 999;
+    animation: add 2s; 
+}
+@keyframes add{
+    from{
+        top: -50px;
+    }
+    to{
+        top: 0;
+    }
+}
+/* NAVBAR PART END*/
+
+
+
+/* BANNER PART START*/
+#banner{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(../images/banner-shape.png);
+    background-size: cover;
+    background-position: center
+}
+.banner-left h5{
+    font-family: 'Montserrat', sans-serif;
+    color: #0d72b9;
+    text-transform: capitalize;
+    font-size: 18px;
+    letter-spacing: 1px
+}
+.banner-left h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #444444;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    padding-top: 15px;
+    position: relative;
+}
+.banner-left h1:after{
+    position: absolute;
+    top: -100px;
+    left: -380px;
+    background: url(../images/shape2.png);
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(-110deg);
+}
+.banner-left p{
+    font-family: 'Montserrat', sans-serif;
+    color: #777;
+    text-transform: capitalize;
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-break: break-all;
+    line-height: 30px;
+    font-weight: 400;
+    padding-top: 15px;
+    position: relative;
+}
+.banner-left p:after{
+    position: absolute;
+    top: 40px;
+    left: -365px;
+    background: url(../images/shape1.png);
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(100deg);
+}
+.banner-left p:before{
+    position: absolute;
+    top: 80px;
+    right: -160px;
+    background: url(../images/shape3.png);
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(100deg);
+}
+.nav-btn2 h6{
+    display: inline-block;
+    padding: 10px 30px;
+}
+.banner-right img{
+    z-index: 111
+}
+.banner-left{
+    padding-top: 15px
+}
+/* BANNER PART END*/
+
+
+
+/* PARTNER PART START*/
+#partner{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.part-top h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #444444;
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 10px
+}
+.part-top span{
+    font-family: 'Poppins', sans-serif;
+    color: #0d72b9;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.part-main{
+    padding-top: 40px
+}
+/* PARTNER PART END*/
+
+
+
+/* ABOUT PART END*/
+#about{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.about-left h3{
+    font-family: 'Poppins', sans-serif;
+    color: #444444;
+    text-transform: capitalize;
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: 700;
+    position: relative;
+}
+.about-left h3:after{
+    background: url(../images/shape4.png);
+    position: absolute;
+    top: 170px;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    content: '';
+    transform: rotate(45deg);
+}
+.about-left p{
+    font-family: 'Montserrat', sans-serif;
+    color: #777777;
+    text-transform: capitalize;
+    font-size: 18px;
+    word-break: break-all;
+    padding-top: 30px;
+    line-height: 35px
+}
+.about-top{
+    padding-top: 60px
+}
+.about-ceo{
+    padding-top: 30px
+}
+.about-ceo2 h3{
+    font-family: 'Poppins', sans-serif;
+    color: #444444;
+    text-transform: capitalize;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 0;
+    line-height: 0;
+    padding-top: 10px
+}
+.about-ceo2 h5{
+    font-family: 'Montserrat', sans-serif;
+    color: #777777;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-top: 15px;
+    position: relative;
+}
+.about-ceo2 h5:after{
+    position: absolute;
+    content: '';
+    background: url(../images/shape3.png);
+    top: 0;
+    right: -80%;
+    width: 105%;
+    height: 104%;
+    background-repeat: no-repeat;
+    background-position: center
+}
+.about-ceo img{
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(68, 68, 68, 0.2);
+    padding: 5px 13px;
+    background: rgba(13, 114, 185, 0.25)
+}
+.about-ceo2{
+    padding-top: 15px
+}
+.about-right{
+    position: relative;
+}
+.about-right:after{
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    width: 20%;
+    height: 20%;
+    content: '';
+    background: url(../images/shape5.png);
+    background-repeat: no-repeat;
+    transform: rotate(35deg);
+}
+/* ABOUT PART END*/
+
+
+
+
+/* SERVICE PART START*/
+#service{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    z-index: -11;
+    background: url(../images/shape.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.ser-itm h3{
+    font-family: 'Poppins', sans-serif;
+    color: #444444;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-top: 15px
+}
+.ser-itm p{
+    font-family: 'Montserrat', sans-serif;
+    color: #777;
+    text-transform: capitalize;
+    font-size: 16px;
+    word-break: break-all;
+    padding-top: 10px;
+    line-height: 30px
+}
+.ser-itm{
+    box-shadow: 0px 0px 15px rgba(68, 68, 68, 0.2);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: url(../images/ser-shape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    background-color: #ffffff;
+}
+/* SERVICE PART END*/
+
+
+
+
+/* PRICE & TEAM PART START*/
+#price2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(../images/striples-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.price-prt h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #444444;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 700;
+    box-shadow: 0px 0 10px rgba(13, 114, 185, 0.4);
+    display: inline-block;
+    padding: 10px 40px;
+    margin-top: -15px;
+    background: #ffffff;
+}
+.price-prt2 h3{
+    box-shadow: 0px 0 10px rgba(255, 161, 161, 0.4);
+}
+.price-img{
+    padding-top: 20px;
+}
+.price-prt h5{
+    font-family: 'Poppins', sans-serif;
+    color: #444444;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 700;
+    background: rgba(13, 114, 185, 0.2);
+    margin-top: 40px;
+    padding: 5px 0;
+    margin-bottom: 20px
+}
+.price-prt2 h5{
+    background: #ffa1a1
+}
+.price-prt h6{
+    font-family: 'Poppins', sans-serif;
+    color: #444444;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding-top: 15px
+}
+.price-prt{
+    box-shadow: 0 0 15px rgba(68, 68, 68, 0.25);
+    padding-bottom: 20px;
+    margin-top: 70px;
+    background: #ffffff
+}
+.price-prt2{
+    border: 2px solid #ffa1a1
+}
+.pt{
+    padding-top: 160px;
+    padding-bottom: 60px
+}
+.team-prt{
+    border: 2px dotted #0d72b9;
+    padding: 20px 0;
+    border-radius: 10px
+}
+.team-prt img{
+    width: 180px
+}
+.team-prt h4{
+    font-family: 'Poppins', sans-serif;
+    color: #444444;
+    text-transform: capitalize;
+    font-size: 24px;
+    padding-top: 15px;
+    margin: 0;
+    font-weight: 700
+}
+.team-prt h6{
+    font-family: 'Montserrat', sans-serif;
+    color: #777;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding-top: 10px
+}
+.team-prt i{
+    font-size: 20px;
+    color: #0d72b9;
+    padding-top: 15px;
+    padding-left: 10px
+}
+/* PRICE PART END*/
+
+
+
+/* CONTACT PART START*/
+.contact{
+    padding-top: 120px;
+    padding-bottom: 60px
+}
+.form-control {
+	display: block;
+	width: 100%;
+	padding: 8px 12px;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: transparent;
+	background-clip: padding-box;
+	border-radius: .25rem;
+}
+.form-control::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    color: #777;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.contact-form form{
+    margin-top: 30px
+}
+.message .form-control{
+    padding: 60px 0px;
+    text-align: center
+}
+.contact-form{
+    padding-top: 50px
+}
+.nav-btn3{
+    margin-top: 30px;
+}
+.nav-btn3 h6{
+    padding: 10px 50px
+}
+/* CONTACT PART END*/
+
+
+
+/*  BACK-TOP PART START  */
+
+.back-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 11;
+    display: none;
+}
+.back-btn i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #0d72b9;
+    color: #ffffff;
+    border-radius: 5px;
+}
+/*  BACK-TOP PART END  */
+
+
+
+
+
+/* FOOTER PART START*/
+#footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url(../images/footer.png);
+    background-color: #F9FBFE;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px
+}
+.foot-left img{
+    width: 200px
+}
+.foot-left p{
+    font-family: 'Montserrat', sans-serif;
+    color: #777;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding-top: 20px;
+    line-height: 30px
+}
+.foot-left i{
+    font-size: 18px;
+    color: #0d72b9;
+    padding-right: 15px;
+    padding-top: 10px
+}
+.foot-mid h3{
+    font-family: 'Poppins', sans-serif;
+    color: #444444;
+    text-transform: capitalize;
+    font-size: 24px;
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+.foot-mid h6{
+    font-family: 'Montserrat', sans-serif;
+    color: #777777;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding-top: 10px
+}
+.foot-right h3{
+    padding-bottom: 15px
+}
+.foot-right h6{
+    line-height: 30px
+}
+.copy{
+    margin-top: 70px
+}
+.copy h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.copy span{
+    padding-left: 20px;
+    text-transform: capitalize;
+    color: #777;
+    letter-spacing: 1px
+}
+/* FOOTER PART END*/
+
+
+
+/* TEAM 1 PAGE PART START*/
+/* TEAM 1 PAGE PART END*/
+
+
+
+
+
+
+
